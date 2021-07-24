@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="35" android:versionName="0.6.0" android:installLocation="preferExternal" android:compileSdkVersion="29" android:compileSdkVersionCodename="10" package="in.rxce.app" platformBuildVersionCode="29" platformBuildVersionName="10">
+	<uses-sdk android:minSdkVersion="19" android:targetSdkVersion="29" />
+	<supports-screens android:anyDensity="true" android:smallScreens="true" android:normalScreens="true" android:largeScreens="true" android:xlargeScreens="true" />
+	<uses-feature android:glEsVersion="0x30000" />
+	<uses-feature android:name="android.hardware.vulkan.version" android:required="false" />
+	<uses-permission android:name="android.permission.INTERNET" />
+	<uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+	<uses-feature android:name="android.hardware.touchscreen.multitouch" android:required="false" />
+	<uses-feature android:name="android.hardware.touchscreen.multitouch.distinct" android:required="false" />
+	<application android:label="Rxce" android:icon="res/mipmap-xxxhdpi-v4/app_icon.png">
+		<activity android:theme="resourceId:0x7f040001" android:name="com.unity3d.player.UnityPlayerActivity" android:launchMode="singleTask" android:screenOrientation="landscape" android:configChanges="0x40003fff" android:hardwareAccelerated="false">
+			<intent-filter>
+				<action android:name="android.intent.action.MAIN" />
+				<category android:name="android.intent.category.LAUNCHER" />
+			</intent-filter>
+			<meta-data android:name="unityplayer.UnityActivity" android:value="true" />
+			<meta-data android:name="android.notch_support" android:value="true" />
+		</activity>
+		<meta-data android:name="unity.splash-mode" android:value="0" />
+		<meta-data android:name="unity.splash-enable" android:value="true" />
+		<meta-data android:name="notch.config" android:value="portrait|landscape" />
+		<meta-data android:name="unity.build-id" android:value="d95d4685-2082-4057-81ea-fe30dc431094" />
+	</application>
+</manifest>
