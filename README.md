@@ -1,2 +1,0 @@
-# zphisher2
-zphisher
